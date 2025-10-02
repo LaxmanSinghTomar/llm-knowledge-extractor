@@ -1,0 +1,10 @@
+# Git attributes for better diffs
+*.py diff=python
+*.md diff=markdown
+*.json diff=json
+
+# Linguist language stats
+docs/* linguist-documentation
+evals/* linguist-documentation
+tests/* linguist-vendored=false
+
